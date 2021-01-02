@@ -72,3 +72,4 @@ fn commit_date() -> Option<String> {
         .ok()
         .and_then(|r| String::from_utf8(r.stdout).ok())
 }
+
